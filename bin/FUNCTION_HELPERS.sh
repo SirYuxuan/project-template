@@ -1,22 +1,5 @@
 #!/bin/bash
 
-#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#
-# PURPOSE:       Secondary (helper) script that is called by the main SETUP_TEMPLATE.sh file to call
-#                some functions and obtain some exported variables to better modularize the code.
-# TITLE:         FUNCTION_HELPERS
-# AUTHOR:        @Josee9988 | Jose Gracia
-# VERSION:       See in CHANGELOG.md
-# NOTES:         This script will auto remove itself, and in case of wanting to run it again, the user must download
-#                it again or do a 'git stash' and revert the changes.
-# BASH_VERSION:  5.1.4(1)-release (x86_64-pc-linux-gnu)
-# LICENSE:       see in ../LICENSE (project root) or https://github.com/Josee9988/project-template/blob/master/LICENSE
-# GITHUB:        https://github.com/Josee9988/
-# REPOSITORY:    https://github.com/Josee9988/project-template
-# ISSUES:        https://github.com/Josee9988/project-template/issues
-# MAIL:          jgracia9988@gmail.com
-#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#
-
-# SCRIPT WITH EXPORTED FUNCTIONS AND VARIABLES USED IN THE MAIN SETUP_TEMPLATE
 RED='\033[1;31m'
 export NC='\033[0m' # No Color
 export BOLD='\033[1m'
@@ -27,58 +10,60 @@ export GREEN='\033[1;32m'
 export CYAN='\e[36m'
 export DGRAY='\e[90m'
 
-# Function that centers a text in the terminal
+# 将文本居中显示在终端中。
 center() {
   term_width="$(tput cols)"
   padding="$(printf '%0.1s' ={1..500})"
   echo -e "\n${BBLUE}$(printf '%*.*s %s %*.*s\n' 0 "$(((term_width - 2 - ${#1}) / 2))" "$padding" "$1" 0 "$(((term_width - 1 - ${#1}) / 2))" "$padding")${NC}\n"
 }
 
-# Function that displays the error texts in case the project's tests fails.
+# 用于在项目测试失败时显示错误文本
 displayTestErrorTexts() {
-  echo -e "${RED}X ERROR: The tests failed!${NC}. Please, make sure that you are running this script with its original scaffolding (folder/file) structure without any modification.${NC}"
-  echo -e "You should try to 'git stash' your changes and execute this script from the project root again, or clone again the repository (the template) without any changes."
-  echo -e "Remember that your brand new repository should be created from here: ${BOLD}${UPURPLE}https://github.com/Josee9988/project-template/generate${NC}"
-  echo -e "\nThe program will now exit for you to check if this script is executed right when creating your new repository from the link above."
-  echo -e "To omit this error and proceed please execute this script again with the flag '${GREEN}--omit-test-check${NC}'"
-  echo -e "For more information about the script, use the '${BBLUE}--help${NC}' flag."
+  echo -e "${RED}X 错误：测试失败！${NC}。请确保您以其原始脚手架（文件夹/文件）结构运行此脚本，没有任何修改。${NC}"
+  echo -e "您应尝试使用 'git stash' 暂存您的更改，并从项目根目录再次执行此脚本，或者不带任何更改再次克隆存储库（模板）。"
+  echo -e "请记住，您应该从这里创建全新的存储库：${BOLD}${UPURPLE}https://github.com/SirYuxuan/project-template/generate${NC}"
+  echo -e "\n程序现在将退出，以便您检查此脚本在从上述链接创建新存储库时是否正确执行。"
+  echo -e "要忽略此错误并继续，请使用标志'${GREEN}--omit-test-check${NC}'再次执行此脚本。"
+  echo -e "要了解有关脚本的更多信息，请使用'${BBLUE}--help${NC}'标志。"
 }
 
-# Displays the help texts, normally called by the '--help' flag
-displayHelpTexts() { # (it will manually detect your git data and prompt for the project type)
-  center "User help ${DGRAY}$SCRIPT_VERSION${BBLUE}"
-  echo -e "Script usage: ${UGREEN}bash $0${NC} or ${UGREEN}./$0${NC}\n"
 
-  echo -e "${BOLD}Optional arguments and flags:${NC}"
-  echo -e "  ${CYAN}-u, --username, --name${NC}\t\tManually specify the GitHub username instead of the autodetected username."
-  echo -e "  ${CYAN}-e, --email, --mail${NC}\t\t\tManually specify the GitHub email instead of the autodetected mail."
-  echo -e "  ${CYAN}-t, --projectType, --type${NC}\t\tManually specify the type of project (what it is, eg: npm package or website or whatever) instead of being prompted inside the script."
-  echo -e "  ${CYAN}-h, --help, --info${NC}\t\t\t(${BOLD}${DGRAY}FLAG${NC}) Displays this help text."
-  echo -e "  ${CYAN}-v, --version${NC}\t\t\t\t(${BOLD}${DGRAY}FLAG${NC}) Displays the current script version."
-  echo -e "  ${CYAN}--omit-verification${NC}\t\t\t(${BOLD}${DGRAY}FLAG${NC}) Will not prompt if you are sure about the data."
-  echo -e "  ${CYAN}--omit-commit${NC}\t\t\t\t(${BOLD}${DGRAY}FLAG${NC}) Will not commit the data for your."
-  echo -e "  ${CYAN}--omit-tests, --omit-test-check${NC}\t(${BOLD}${DGRAY}FLAG${NC}) Will not perform the script's tests."
-  echo -e "${BBLUE}\nAll arguments but the ones marked with ${NC}'${BOLD}${DGRAY}FLAG${NC}'${BBLUE}, require a value after an equal sign (--argument=value) eg: --email=etc@abc.com, the flags are just called without any equal signs.${NC}"
+# 显示帮助文本的函数，通常由'--help'标志调用。
+# （它将手动检测您的 git 数据并提示输入项目类型）
 
-  echo -e "\n${BOLD}Examples of use:${NC}"
+displayHelpTexts() {
+  center "用户帮助 ${DGRAY}$SCRIPT_VERSION${BBLUE}"
+  echo -e "脚本用法: ${UGREEN}bash $0${NC} 或 ${UGREEN}./$0${NC}\n"
+
+  echo -e "${BOLD}可选参数和标志:${NC}"
+  echo -e "  ${CYAN}-u, --username, --name${NC}\t\t手动指定 GitHub 用户名，而不是自动检测的用户名。"
+  echo -e "  ${CYAN}-e, --email, --mail${NC}\t\t\t手动指定 GitHub 电子邮件，而不是自动检测的电子邮件。"
+  echo -e "  ${CYAN}-t, --projectType, --type${NC}\t\t手动指定项目类型（例如：npm 软件包或网站等），而不是在脚本内部提示。"
+  echo -e "  ${CYAN}-h, --help, --info${NC}\t\t\t(${BOLD}${DGRAY}FLAG${NC}) 显示此帮助文本。"
+  echo -e "  ${CYAN}-v, --version${NC}\t\t\t\t(${BOLD}${DGRAY}FLAG${NC}) 显示当前脚本版本。"
+  echo -e "  ${CYAN}--omit-verification${NC}\t\t\t(${BOLD}${DGRAY}FLAG${NC}) 如果您确定数据无误，则不会提示。"
+  echo -e "  ${CYAN}--omit-commit${NC}\t\t\t\t(${BOLD}${DGRAY}FLAG${NC}) 不会提交您的数据。"
+  echo -e "  ${CYAN}--omit-tests, --omit-test-check${NC}\t(${BOLD}${DGRAY}FLAG${NC}) 不会执行脚本的测试。"
+  echo -e "${BBLUE}\n除了使用标有 ${NC}'${BOLD}${DGRAY}FLAG${NC}'${BBLUE} 的参数外，其他参数都需要在等号后面加上一个值（--argument=value），例如：--email=etc@abc.com，标志则直接调用，不需要等号.${NC}"
+
+  echo -e "\n${BOLD}使用示例:${NC}"
   echo -e "  bash $0"
   echo -e "  bash $0 -h"
   echo -e "  bash $0 --projectType=Angular-Website --omit-commit --omit-verification"
-  echo -e "  bash $0 --email=jgracia9988@gmail.com"
-  echo -e "  bash $0 --username=whatever --projectName=whatever --email=whatever --projectType=whatever${NC}"
-  echo -e "  bash $0 -u=Josee9988 --projectType=Github-template --omit-commit${NC}\n"
+  echo -e "  bash $0 --email=1718018032@qq.com"
+  echo -e "  bash $0 --username=SirYuxuan --projectName=simple --email=1718018032@qq.com --projectType=Website${NC}"
+  echo -e "  bash $0 -u=SirYuxuan --projectType=Github-template --omit-commit${NC}\n"
 
-  echo -e "The username, project-name and email are automatically gathered from your git repository and git config."
-  echo -e "Make sure you have ${BBLUE}read the documentation before executing${NC} this script: ${UPURPLE}https://github.com/Josee9988/project-template${NC}"
-  echo -e "If you have any questions or if any issue is found, please make sure to report it at: ${UPURPLE}https://github.com/Josee9988/project-template/issues${NC}"
+  echo -e "用户名、项目名称和电子邮件是从您的 git 仓库和 git 配置中自动收集的。"
+  echo -e "确保在执行此脚本之前${BBLUE}阅读了文档${NC}：${UPURPLE}https://github.com/SirYuxuan/project-template${NC}"
+  echo -e "如果您有任何问题或发现任何问题，请务必在此处进行报告：${UPURPLE}https://github.com/SirYuxuan/project-template/issues${NC}"
 }
 
-# Function that writes and parses variables to write the new generated README.md file
+# 写入并解析变量以编写新生成的 README.md 文件的函数：
 writeREADME() {
   PROJECT_NAME_PARSED=${PROJECT_NAME/-/ }
   bash -c "NEW_USERNAME='NEW_USERNAME' PROJECT_NAME='PROJECT_NAME' PROJECT_TYPE='PROJECT_TYPE'; cat << EOF > README.md
-<!-- markdownlint-disable MD032 MD033-->
-<!-- Write your README.md file. Build something amazing! This README.md template can guide you to build your project documentation, but feel free to modify it as you wish 🥰 -->
+
 # 🔥 **$NEW_USERNAME/$PROJECT_NAME**
 
 <div align=\"center\">
@@ -153,7 +138,7 @@ By donating, you will help the development of this project, and *you will be fea
 
 ---
 
-$PROJECT_NAME was generated from *[Josee9988/project-template](https://github.com/Josee9988/project-template)* 📚
+$PROJECT_NAME was generated from *[SirYuxuan/project-template](https://github.com/SirYuxuan/project-template)* 📚
 
 ---
 
@@ -205,6 +190,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ### Added
 
-* The basic project structure from **[josee9988/project-template](https://github.com/Josee9988/project-template)**.
+* The basic project structure from **[SirYuxuan/project-template](https://github.com/SirYuxuan/project-template)**.
 EOF"
 }
