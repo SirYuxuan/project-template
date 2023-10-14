@@ -9,7 +9,7 @@ NEW_USERNAME=$(echo "$NAME_AND_PROJECT_UNPARSED" | cut -d':' -f 2 | cut -d'/' -f
 PROJECT_NAME=$(echo "$NAME_AND_PROJECT_UNPARSED" | cut -d'/' -f 2 | cut -d'.' -f 1)
 NEW_EMAIL=$(git config user.email)
 TEMP_TEST_OUTPUT=".ignore.test_output.txt"
-PROJECT_TYPE="repository" # default value if not specified
+PROJECT_TYPE="repository" # 如果未指定则默认值
 will_omit_verification=false
 will_omit_commit=false
 will_omit_test=false
@@ -17,75 +17,75 @@ SCRIPT_VERSION="1.11.8"
 
 FILE_FUNCTION_HELPERS=bin/FUNCTION_HELPERS.sh
 
-if [ ! -f "$FILE_FUNCTION_HELPERS" ]; then # check if the function helpers file is not found
-  echo -e "${RED}X Can not find ${FILE_FUNCTION_HELPERS}"
-  exit 1 # it will exit if the function helpers file is not found
+if [ ! -f "$FILE_FUNCTION_HELPERS" ]; then # 检查函数助手文件是否不存在
+  echo -e "${RED}X 无法找到 ${FILE_FUNCTION_HELPERS}"
+  exit 1 # 如果找不到函数助手文件，则退出
 else
   # shellcheck source=bin/FUNCTION_HELPERS.sh disable=SC1091
-  source $FILE_FUNCTION_HELPERS || exit 1 # obtain some global functions and variables, if the file isn't found exit
+  source $FILE_FUNCTION_HELPERS || exit 1 # 如果找不到文件则退出，并获取一些全局函数和变量
 fi
 
-# PARSE THE ARGUMENTS
+# 解析参数
 for i in "$@"; do
   case $i in
   -u=* | --user=* | --username=* | --name=*)
     NEW_USERNAME="${i#*=}"
-    shift # past argument=value
+    shift # 过参数=值
     ;;
   -p=* | --project=* | --project-name=* | --project_name=* | --projectName=*)
     PROJECT_NAME="${i#*=}"
-    shift # past argument=value
+    shift # 过参数=值
     ;;
   -e=* | --email=* | --mail=*)
     NEW_EMAIL="${i#*=}"
-    shift # past argument=value
+    shift # 过参数=值
     ;;
   -t=* | --type=* | --project_type=* | --projectType=*)
     PROJECT_TYPE="${i#*=}"
-    shift # past argument=value
+    shift # 过参数=值
     ;;
   -h | --help | --info | --information)
     displayHelpTexts
     exit 0
-    shift # past argument=value
+    shift # 过参数=值
     ;;
   -v | --version)
     echo -e "${GREEN}$SCRIPT_VERSION${NC}"
     exit 0
-    shift # past argument=value
+    shift # 过参数=值
     ;;
   -o | --omit | --omit-commit-and-confirmation)
-    echo -e "${BBLUE}X Deprecated:${NC} The arguments '--omit-commit-and-confirmation', '-o' and '--omit' are ${RED}deprecated${NC}. Use '--omit-verification' and/or ' --omit-commit' instead."
+    echo -e "${BBLUE}X 已弃用:${NC} 参数 '--omit-commit-and-confirmation'，'-o' 和 '--omit' 已${RED}弃用${NC}。请改用 '--omit-verification' 和/或 ' --omit-commit'。"
     will_omit_verification=true
     will_omit_commit=true
     choice="y"
-    shift # past argument with no value
+    shift # 过没有值的参数
     ;;
   --omit-verification)
     will_omit_verification=true
     choice="y"
-    shift # past argument with no value
+    shift # 过没有值的参数
     ;;
   --omit-commit)
     will_omit_commit=true
-    shift # past argument with no value
+    shift # 过没有值的参数
     ;;
   --omit-test-check | --omit-tests-check | --omit-tests)
     will_omit_test=true
-    shift # past argument with no value
+    shift # 过没有值的参数
     ;;
-  *) # unknown option
-    echo -e "${RED}X Unknown option:${NC} '${i}', type the flag '${BBLUE}--help${NC}' to view all the options and flags."
+  *) # 未知选项
+    echo -e "${RED}X 未知选项:${NC} '${i}'，键入标志 '${BBLUE}--help${NC}' 查看所有选项和标志。"
     ;;
   esac
 done
 
-echo -e "Thanks for using ${GREEN}@SirYuxuan/project-template${NC}"
-echo -e "Read all the documentation carefully before you continue executing this script: ${UPURPLE}https://github.com/SirYuxuan/project-template${NC}\n"
+echo -e "感谢使用 ${GREEN}@SirYuxuan/project-template${NC}"
+echo -e "在继续执行此脚本之前，请仔细阅读所有文档: ${UPURPLE}https://github.com/SirYuxuan/project-template${NC}\n"
 
-bash tests/TESTS_RUNNER.sh >/dev/null 2>&1 # PERFORM the TESTS
+bash tests/TESTS_RUNNER.sh >/dev/null 2>&1 # 执行测试
 
-if [ "$?" -eq 1 ] && [ $will_omit_test = false ]; then # if when running the tests any error was found
+if [ "$?" -eq 1 ] && [ $will_omit_test = false ]; then # 如果运行测试时发现任何错误
   rm "$TEMP_TEST_OUTPUT" 2>/dev/null || :
   displayTestErrorTexts
   exit 1
@@ -93,48 +93,48 @@ fi
 
 rm "$TEMP_TEST_OUTPUT" 2>/dev/null || :
 
-if [ "$PROJECT_TYPE" = "repository" ]; then # if the project's type has not been manually specified
-  read -p "Enter $(echo -e "$BBLUE""what your project is""$NC") (program/extension/API/web/CLI tool/backend/frontend/scrapper/automation tool/etc): " PROJECT_TYPE
+if [ "$PROJECT_TYPE" = "repository" ]; then # 如果未手动指定项目类型
+  read -p "输入 $(echo -e "$BBLUE""你的项目是什么""$NC") (程序/扩展/API/网页/CLI工具/后端/前端/爬虫/自动化工具等): " PROJECT_TYPE
 fi
 
-if [ $will_omit_verification = false ]; then # if the ignore flag has not been manually specified
-  read -p "Is this data correct: username \"$(echo -e "$GREEN""$NEW_USERNAME""$NC")\", email: \"$(echo -e "$GREEN""$NEW_EMAIL""$NC")\", project name: \"$(echo -e "$GREEN""$PROJECT_NAME""$NC")\", of type: \"$(echo -e "$GREEN""$PROJECT_TYPE""$NC")\" (y/n)? " choice
+if [ $will_omit_verification = false ]; then # 如果未手动指定忽略标志
+  read -p "数据是否正确: 用户名 \"$(echo -e "$GREEN""$NEW_USERNAME""$NC")\"，邮箱: \"$(echo -e "$GREEN""$NEW_EMAIL""$NC")\"，项目名称: \"$(echo -e "$GREEN""$PROJECT_NAME""$NC")\"，类型: \"$(echo -e "$GREEN""$PROJECT_TYPE""$NC")\" (y/n)? " choice
 fi
 
-# confirm that the data is correct
+# 确认数据正确
 case "$choice" in
 y | Y)
-  center "Setting everything up for you ;)"
+  center "为您设置一切 ;)"
 
-  # replace the username and email
+  # 替换用户名和电子邮件
   find .github/ -type f -name "*" -print0 | xargs -0 sed -i "s/SirYuxuan/${NEW_USERNAME}/g"
   find .github/ -type f -name "*" -print0 | xargs -0 sed -i "s/1718018032@qq.com/${NEW_EMAIL}/g"
   find .github/ -type f -name "*" -print0 | xargs -0 sed -i "s/project-template/${PROJECT_NAME}/g"
   find .gitignore -type f -name "*" -print0 | xargs -0 sed -i "s/SirYuxuan\/project-template/${NEW_USERNAME}\/${PROJECT_NAME}/g"
 
-  rm LICENSE 2>/dev/null || :                                 # remove the license
-  rm -r bin/ 2>/dev/null || :                                 # remove the bin folder
-  rm -r tests/ 2>/dev/null || :                               # remove the tests folder
-  rm -r .github/workflows/ 2>/dev/null || :                   # remove the workflow folder
-  writeREADME                                                 # write the new README.md
-  writeCHANGELOG                                              # write the basic structure of the CHANGELOG.md
-  echo -e "# add your own funding links" >.github/FUNDING.yml # remove author's custom funding links
+  rm LICENSE 2>/dev/null || :                                 # 删除许可证
+  rm -r bin/ 2>/dev/null || :                                 # 删除 bin 文件夹
+  rm -r tests/ 2>/dev/null || :                               # 删除 tests 文件夹
+  rm -r .github/workflows/ 2>/dev/null || :                   # 删除工作流文件夹
+  writeREADME                                                 # 写入新的 README.md
+  writeCHANGELOG                                              # 写入 CHANGELOG.md 的基本结构
+  echo -e "# 添加你自己的资金链接" >.github/FUNDING.yml # 删除作者的自定义资金链接
 
-  if [ $will_omit_commit = false ]; then                                                  # if the ignore option for tests has been specified
-    git add CHANGELOG.md README.md .gitignore .github SETUP_TEMPLATE.sh LICENSE bin tests # commit the new files
-    git -c color.status=always status | less -REX                                         # show git status with colours
-    echo -e "Committing the changes for you :)\n"
-    git commit -m "📝 Set up '@SirYuxuan/project-template' template: Personalized files by executing the SETUP_TEMPLATE.sh script.🚀"
-    echo -e "\nRemember to review every file and customize it as you like.\nYou are ready to start your brand new awesome project🚀🚀." else
+  if [ $will_omit_commit = false ]; then                                                  # 如果已指定忽略选项用于测试
+    git add CHANGELOG.md README.md .gitignore .github SETUP_TEMPLATE.sh LICENSE bin tests # 提交新文件
+    git -c color.status=always status | less -REX                                         # 以彩色显示 git 状态
+    echo -e "为您提交更改 :)\n"
+    git commit -m "📝 设置 '@SirYuxuan/project-template' 模板: 通过执行 SETUP_TEMPLATE.sh 脚本个性化文件。🚀"
+    echo -e "\n记得审查每个文件并根据您的喜好进行自定义。\n您已准备好开始您全新的出色项目🚀🚀。" else
   fi
 
-  # self remove this script
+  # 自删除此脚本
   rm -- "$0" 2>/dev/null || :
   ;;
 n | N)
-  echo -e "\nIf your username, project name or email were NOT right, you can manually change them. Read how to do it with the script's help: ${UPURPLE}bash SETUP_TEMPLATE.sh --help${NC}\n"
+  echo -e "\n如果您的用户名、项目名称或电子邮件不正确，可以手动更改它们。阅读脚本帮助中的如何操作: ${UPURPLE}bash SETUP_TEMPLATE.sh --help${NC}\n"
   ;;
-*) echo -e "${RED}X Invalid option${NC}" ;;
+*) echo -e "${RED}X 无效选项${NC}" ;;
 esac
 
 exit 0

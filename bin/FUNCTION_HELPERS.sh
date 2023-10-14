@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RED='\033[1;31m'
-export NC='\033[0m' # No Color
+export NC='\033[0m' # 无颜色
 export BOLD='\033[1m'
 export UPURPLE='\033[4;35m'
 export BBLUE='\033[1;34m'
@@ -69,127 +69,127 @@ writeREADME() {
 <div align=\"center\">
   <!-- Change your logo -->
   <a href=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME\">
-    <img width=\"100%\" src=\"https://i.imgur.com/SVvgxJF.png\" alt=\"@$NEW_USERNAME/$PROJECT_NAME's logo\">
+    <img width=\"100%\" src=\"https://i.imgur.com/SVvgxJF.png\" alt=\"@$NEW_USERNAME/$PROJECT_NAME的标识\">
   </a>
   <br>
   <a href=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/issues\">
-    <img src=\"https://img.shields.io/github/issues/$NEW_USERNAME/$PROJECT_NAME?color=0088ff&style=for-the-badge&logo=github\" alt=\"$NEW_USERNAME/$PROJECT_NAME's issues\"/>
+    <img src=\"https://img.shields.io/github/issues/$NEW_USERNAME/$PROJECT_NAME?color=0088ff&style=for-the-badge&logo=github\" alt=\"$NEW_USERNAME/$PROJECT_NAME的问题\"/>
   </a>
   <a href=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/pulls\">
-    <img src=\"https://img.shields.io/github/issues-pr/$NEW_USERNAME/$PROJECT_NAME?color=0088ff&style=for-the-badge&logo=github\"  alt=\"$NEW_USERNAME/$PROJECT_NAME's pull requests\"/>
+    <img src=\"https://img.shields.io/github/issues-pr/$NEW_USERNAME/$PROJECT_NAME?color=0088ff&style=for-the-badge&logo=github\"  alt=\"$NEW_USERNAME/$PROJECT_NAME的拉取请求\"/>
   </a>
 </div>
 
 ---
 
-## 🤔 **About the project**
+## 🤔 **关于项目**
 
-* <!-- ... [WHY DID YOU CREATED THIS PROJECT?, MOTIVATION, PURPOSE, DESCRIPTION, OBJECTIVES, etc] -->
-
----
-
-## ⚡ **Installation**
-
-* <!-- ... [SHOW HOW YOUR PROJECT IS INSTALLED] -->
+* <!-- ... [为什么创建此项目？动机、目的、描述、目标等] -->
 
 ---
 
-## 🚀 **Usage**
+## ⚡ **安装**
 
-* <!-- ... [SHOW HOW YOUR PROJECT IS USED] -->
-
----
-
-## 🌲 **Project tree**
-
-<!-- ... [SHOW YOUR PROJECT TREE HERE IF USEFUL] -->
+* <!-- ... [显示如何安装您的项目] -->
 
 ---
 
-## 📝 **Additional notes**
+## 🚀 **用法**
 
-* <!-- ... [ADD ADDITIONAL NOTES] -->
-
----
-
-## 📸 **Screenshots**
-
-<!-- ... [SOME DESCRIPTIVE IMAGES] -->
+* <!-- ... [显示如何使用您的项目] -->
 
 ---
 
-## 🍰 **Supporters and donators**
+## 🌲 **项目树**
 
-<!-- Change your small logo -->
+<!-- ... [在这里显示您的项目树，如果有用的话] -->
+
+---
+
+## 📝 **额外说明**
+
+* <!-- ... [添加附加说明] -->
+
+---
+
+## 📸 **截图**
+
+<!-- ... [一些描述性图片] -->
+
+---
+
+## 🍰 **支持者和捐赠者**
+
+<!-- 更改您的小徽标 -->
 <a href=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME_PARSED\">
-  <img alt=\"@$NEW_USERNAME/$PROJECT_NAME_PARSED's brand logo without text\" align=\"right\" src=\"https://i.imgur.com/3qK1sie.png\" width=\"18%\" />
+  <img alt=\"@$NEW_USERNAME/$PROJECT_NAME_PARSED的品牌标志，无文字\" align=\"right\" src=\"https://i.imgur.com/3qK1sie.png\" width=\"18%\" />
 </a>
 
 
-We are currently looking for new donators to help and maintain this project! ❤️
+我们目前正在寻找新的捐赠者来帮助维护此项目！❤️
 
-By donating, you will help the development of this project, and *you will be featured in this $PROJECT_NAME's README.md*, so everyone can see your kindness and visit your content ⭐.
+通过捐赠，您将帮助此项目的发展，并且*您将在此$PROJECT_NAME的README.md中显示*，以便每个人都可以看到您的善举并访问您的内容⭐。
 
-<a href=\"https://github.com/sponsors/$NEW_USERNAME\"> <!-- MODIFY THIS LINK TO YOUR MAIN DONATING SITE IF YOU ARE NOT IN THE GITHUB SPONSORS PROGRAM -->
-  <img src=\"https://img.shields.io/badge/Sponsor-$NEW_USERNAME/$PROJECT_NAME_PARSED-blue?logo=github-sponsors&style=for-the-badge&color=red\">
+<a href=\"https://github.com/sponsors/$NEW_USERNAME\"> <!-- 如果您不在GitHub赞助计划中，修改此链接到您的主要捐赠网站 -->
+  <img src=\"https://img.shields.io/badge/赞助者-$NEW_USERNAME/$PROJECT_NAME_PARSED-blue?logo=github-sponsors&style=for-the-badge&color=red\">
 </a>
 
-<!-- LINK TO YOUR DONATING PAGES HERE -->
+<!-- 在此处链接到您的捐赠页面 -->
 
 ---
 
-$PROJECT_NAME was generated from *[SirYuxuan/project-template](https://github.com/SirYuxuan/project-template)* 📚
+$PROJECT_NAME是从*[SirYuxuan/project-template](https://github.com/SirYuxuan/project-template)* 📚生成的
 
 ---
 
-## 🕵️ Extra recommendations
+## 🕵️ 额外建议
 
-* <!-- If you recommend installing anything special, or if you recommend using X thing for the good use of your project...-->
+* <!-- 如果您建议安装任何特殊内容，或者如果您建议使用某种内容以便更好地使用您的项目...-->
 
 ---
 
-## 🎉 Was the $PROJECT_TYPE helpful? Help us raise these numbers up
+## 🎉 $PROJECT_TYPE有帮助吗？帮助我们提高这些数字
 
 [![GitHub followers](https://img.shields.io/github/followers/$NEW_USERNAME.svg?style=social)](https://github.com/$NEW_USERNAME)
 [![GitHub stars](https://img.shields.io/github/stars/$NEW_USERNAME/$PROJECT_NAME.svg?style=social)](https://github.com/$NEW_USERNAME/$PROJECT_NAME/stargazers)
 [![GitHub watchers](https://img.shields.io/github/watchers/$NEW_USERNAME/$PROJECT_NAME.svg?style=social)](https://github.com/$NEW_USERNAME/$PROJECT_NAME/watchers)
 [![GitHub forks](https://img.shields.io/github/forks/$NEW_USERNAME/$PROJECT_NAME.svg?style=social)](https://github.com/$NEW_USERNAME/$PROJECT_NAME/network/members)
-<!-- MODIFY THIS LINK TO YOUR MAIN DONATING SITE IF YOU ARE NOT IN THE GITHUB SPONSORS PROGRAM -->
-[![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=github-sponsors&color=red&style=social)](https://github.com/sponsors/$NEW_USERNAME)
+<!-- 如果您不在GitHub赞助计划中，修改此链接到您的主要捐赠网站 -->
+[![赞助](https://img.shields.io/static/v1?label=赞助&message=%E2%9D%A4&logo=github-sponsors&color=red&style=social)](https://github.com/sponsors/$NEW_USERNAME)
 
-Enjoy! 😃
-
----
-
-## ⚖️📝 **License and Changelog**
-
-See the license in the '**[LICENSE](LICENSE)**' file.
-
-Watch the changes in the '**[CHANGELOG.md](CHANGELOG.md)**' file.
+尽情享受！ 😃
 
 ---
 
-_Made with a lot of ❤️❤️ by **[@$NEW_USERNAME](https://github.com/$NEW_USERNAME)**_
+## ⚖️📝 **许可和更改记录**
+
+请查看 '**[LICENSE](LICENSE)**' 文件中的许可证。
+
+请查看 '**[CHANGELOG.md](CHANGELOG.md)**' 文件中的更改。
+
+---
+
+_由**[@$NEW_USERNAME](https://github.com/$NEW_USERNAME)**充满了很多❤️❤️制作_
 EOF"
 }
 
-# Function that writes and parses variables to write the new generated CHANGELOG.md file
+# 写入并解析变量以编写新生成的 CHANGELOG.md 文件的函数：
 writeCHANGELOG() {
   ACTUAL_DATE=$(date '+%Y-%m-%d')
   bash -c "PROJECT_NAME='PROJECT_NAME' PROJECT_TYPE='PROJECT_TYPE' ACTUAL_DATE='ACTUAL_DATE'; cat << EOF > CHANGELOG.md
 <!-- markdownlint-disable MD024-->
-# **Change Log** 📜📝
+# **变更日志** 📜📝
 
-All notable changes to the \"**$PROJECT_NAME**\" $PROJECT_TYPE will be documented in this file.
+将记录对\"**$PROJECT_NAME**\" $PROJECT_TYPE 的所有重要更改。
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+此格式基于[Keep a Changelog](https://keepachangelog.com/en/1.0.0/)，并且此项目遵循[语义化版本](https://semver.org/spec/v2.0.0.html)。
 
 ---
 
 ## [**0.0.1**] - $ACTUAL_DATE
 
-### Added
+### 已添加
 
-* The basic project structure from **[SirYuxuan/project-template](https://github.com/SirYuxuan/project-template)**.
+* 来自 **[SirYuxuan/project-template](https://github.com/SirYuxuan/project-template)** 的基本项目结构。
 EOF"
 }
