@@ -1,48 +1,42 @@
-<!-- markdownlint-disable MD032 MD033-->
-# 🔥 **Josee9988's GitHub Project Template**
+# 🔥 **SirYuxuan GitHub Project Template**
 
 <p align="center">
-  <a href="https://github.com/Josee9988/project-template/generate">
-    <img width="100%" src="https://i.imgur.com/SVvgxJF.png" alt="@Josee9988/project-template's">
-  </a>
   <br>
-  <a href="https://github.com/Josee9988/project-template/issues">
-    <img src="https://img.shields.io/github/issues/Josee9988/project-template?color=0088ff&style=for-the-badge&logo=github" alt="@Josee9988/project-template's issues"/>
+  <a href="https://github.com/SirYuxuan/project-template/issues">
+    <img src="https://img.shields.io/github/issues/SirYuxuan/project-template?color=0088ff&style=for-the-badge&logo=github" alt="@SirYuxuan/project-template's issues"/>
   </a>
-  <a href="https://github.com/josee9988/project-template/pulls">
-    <img src="https://img.shields.io/github/issues-pr/Josee9988/project-template?color=0088ff&style=for-the-badge&logo=github" alt="@Josee9988/project-template's pull requests"/>
+  <a href="https://github.com/SirYuxuan/project-template/pulls">
+    <img src="https://img.shields.io/github/issues-pr/SirYuxuan/project-template?color=0088ff&style=for-the-badge&logo=github" alt="@SirYuxuan/project-template's pull requests"/>
   </a>
-  <a href="https://github.com/Josee9988/project-template/generate">
-    <img src="https://img.shields.io/badge/use%20this-template-blue?logo=github-sponsors&style=for-the-badge&color=green" alt="@Josee9988/project-template link to create a new repository from the template">
+  <a href="https://github.com/SirYuxuan/project-template/generate">
+    <img src="https://img.shields.io/badge/use%20this-template-blue?logo=github-sponsors&style=for-the-badge&color=green" alt="@SirYuxuan/project-template link to create a new repository from the template">
   </a>
-  <a href="https://github.com/Josee9988/project-template/actions/workflows/shelltest.yml">
-    <img src="https://github.com/Josee9988/project-template/actions/workflows/shelltest.yml/badge.svg" alt="@Josee9988/project-template's tests">
-  </a>
+
 </p>
 
 ---
 
-## 🤔 **What is this template all about?**
+## 🤔 **这个模板是关于什么的？**
 
-* This template can be used as a base layer for any of your future repositories/projects.
-* Make your project easy to maintain with **8 issue templates**.
-* Quick start your documentation with personalized **README badges** and an extraordinary README structure.
-* Manage your issues with **20 issue labels** created just for you!
-* Make your _community healthier_ with all the guides like code of conduct, contributing, support, security...
-* Learn more with the [official GitHub guide on creating repositories from a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
-* To start using it; "**[click use this template](https://github.com/Josee9988/project-template/generate)**" and create your new repository,
-* All the basic setup is made through an easy script that will auto-detect all your data to make it lightning fast! 🗲🗲 Clone your new repository and execute the `SETUP_TEMPLATE.sh` shell script to personalize the files with your private details. Check how to run it [here](https://asciinema.org/a/425259).
-* All the markdown follows ["MarkdownLint" rules](https://github.com/DavidAnson/markdownlint).
+* 这个模板可以作为您未来任何仓库或项目的基础层。
+* 通过8个问题模板使您的项目易于维护。
+* 使用个性化的README徽章和非凡的README结构快速启动您的文档。
+* 使用专为您创建的20个问题标签来管理您的问题！
+* 通过诸如行为准则、贡献、支持和安全等所有指南，使您的社区更加健康。
+* 通过以下方式了解更多信息： [官方GitHub指南中关于如何从模板创建存储库的部分](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
+* 开始使用它; "**[点击使用此模板](https://github.com/SirYuxuan/project-template/generate)**"并创建您的新存储库，
+* 所有基本设置都是通过一个简单的脚本完成的，它将自动检测所有您的数据，使整个过程速度快如闪电！克隆您的新存储库并执行以下脚本：`SETUP_TEMPLATE.sh` 脚本以个性化方式处理文件，并使用您的私人详细信息。查看以下链接了解如何运行它 [这里](https://asciinema.org/a/425259).
+* 所有的 Markdown 遵循 "MarkdownLint" 规则。 ["MarkdownLint" 规则](https://github.com/DavidAnson/markdownlint).
 
 ---
 
-## ⚡ **Installation**
+## ⚡ **安装**
 
-1. To create a new repository from this template, **[generate your new repository from this template](https://github.com/Josee9988/project-template/generate)**;
-for more information or guidance, follow the [GitHub guide](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
-2. Install the [🤖 used GitHub bots](https://github.com/Josee9988/project-template#-used-github-bots) (recommended)
-3. Clone your new repository **[generated from this template](https://github.com/Josee9988/project-template/generate)** and `cd` into it.
-4. **Execute** the `SETUP_TEMPLATE.sh` shell script to **customize** the files with your data.
+1. 要从此模板创建一个新的存储库， **[从此模板生成您的新存储库](https://github.com/SirYuxuan/project-template/generate)**;
+   如需更多信息或指导，请查阅[GitHub 指南](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
+2. 安装 [🤖 使用的 GitHub 机器人](https://github.com/SirYuxuan/project-template#-used-github-bots) (推荐)
+3. 克隆您的新存储库 **[从此模板生成](https://github.com/SirYuxuan/project-template/generate)** 并切换到该目录。
+4. **执行** 这个 `SETUP_TEMPLATE.sh` Shell 脚本  使用你的数据来**自定义**文件。
 
     ```bash
     bash SETUP_TEMPLATE.sh
@@ -54,24 +48,24 @@ for more information or guidance, follow the [GitHub guide](https://docs.github.
     ./SETUP_TEMPLATE.sh
     ```
 
-    Additionally, watch *[this video](https://asciinema.org/a/425259)* to see **how to execute the script** or use *`bash SETUP_TEMPLATE.sh --help`* to obtain some extra information.
+   此外，观看[这个视频](https://asciinema.org/a/425259)* 以查看 **如何执行脚本** 或者使用 *`bash SETUP_TEMPLATE.sh --help`* 获得更多额外信息。
 
-    If the automatic detection of the username, project name or email is NOT correct, please post an issue, and you can **manually correct** them using the optional arguments like: *`bash SETUP_TEMPLATE.sh --username=whatever --projectName=whatever --email=whatever --projectType=whatever`*
+   如果自动检测的用户名、项目名称或电子邮件不正确，请发布一个问题，然后可以 **手动更正** 使用可选参数进行手动更正: *`bash SETUP_TEMPLATE.sh --username=whatever --projectName=whatever --email=whatever --projectType=whatever`*
 
-5. **Review** every single file and **customize** it as you like.
-6. Build your project. 🚀
+5. **查看** 检查每一个文件并**自定义** 按照您的喜好进行自定义。.
+6. 构建您的项目。. 🚀
 
-⚠️ _Customize every file to fit your requirements_ ⚠️
+⚠️ _自定义每个文件以满足您的要求。_ ⚠️
 
 ---
 
-## 📚 **What does it include?**
+## 📚 **它包括什么内容？**
 
-1. A **`SETUP_TEMPLATE.sh`** script that **MUST be executed right when you clone your repository**.
-The script will customize all the data with yours in all the files.
+1. A **`SETUP_TEMPLATE.sh`** 脚本 **必须在克隆存储库时执行**.
+   脚本将会自动将所有文件中的数据根据您的信息进行定制。
 
-   1. A README template file with a default template to start documenting your project. (it includes personalized badges and text with your project details)
-   2. A CHANGELOG template file based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+   1. 一个 README 模板文件，带有默认模板，可用于开始记录您的项目。（其中包括个性化徽章和包含项目详细信息的文本）
+   2. 基于项目变更记录的 CHANGELOG 模板文件[Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
    3. An [issue_label_bot.yaml](/.github/issue_label_bot.yaml) file to use the issue adder GitHub bot. [Activate it or check its documentation](https://github.com/marketplace/issue-label-bot).
    4. A [config.yml](/.github/config.yml) file to modify multiple bot's behaviours.
    5. A [settings.yml](/.github/settings.yml) file to use the popular settings GitHub bot. [Activate it or check its documentation](https://probot.github.io/apps/settings/).
@@ -132,7 +126,7 @@ Files that will get removed after the execution of `SETUP_TEMPLATE.sh` are not s
 
 ## 📝 **Additional notes**
 
-* After **[generating your new repo with this template](https://github.com/Josee9988/project-template/generate)**, make sure to, right after you clone it, run the script `SETUP_TEMPLATE.sh`.
+* After **[generating your new repo with this template](https://github.com/SirYuxuan/project-template/generate)**, make sure to, right after you clone it, run the script `SETUP_TEMPLATE.sh`.
 
 * Then, after 'cloning' the repository you will be presented with all the files modified with your project details and information. It is essential to **manually review every file** to check if it fits your requirements and performs any necessary changes to customize the project as you want.
 
@@ -175,10 +169,10 @@ Badges and texts will be replaced with your project details!
 <p align="center">
   <img width="70%" height="70%" src="https://i.imgur.com/dKKh53K.png" alt="README.md template.">
 
-  Or watch [this video](https://gifs.com/gif/josee9988-s-readme-md-MwO5E3) to see the whole README template.
+  Or watch [this video](https://gifs.com/gif/SirYuxuan-s-readme-md-MwO5E3) to see the whole README template.
 </p>
 
-### 🔖 The labels for your issues
+### 🔖 问题的标签
 
 If the bot [probot-settings](https://probot.github.io/apps/settings/) is not installed you will not have these beautiful labels! (there are more issue labels than in the image!)
 
@@ -186,40 +180,24 @@ If the bot [probot-settings](https://probot.github.io/apps/settings/) is not ins
   <img width="70%" height="70%" src="https://i.imgur.com/dS91k6R.png" alt="LABELS">
 </p>
 
-### 📝 The CHANGELOG template
+### 📝 CHANGELOG 模板
 
-(project name and project type will be replaced with yours)
+(项目名称和项目类型将替换为您的名称和类型）
 
-<p align="center">
-  <img width="70%" height="70%" src="https://i.imgur.com/ScWgQKI.png" alt="CHANGELOG.md template.">
-</p>
-
-### 🛡️ Security policy
-
-<p align="center">
-  <img width="70%" height="70%" src="https://i.imgur.com/ArwDQTi.png" alt="Security issue.">
-</p>
-
-### 💼 Community profile at 100%
-
-<p align="center">
-  <img width="70%" height="70%" src="https://i.imgur.com/kRt3lPs.png" alt="Community profile.">
-</p>
 
 ---
 
-## 🕵️ **Extra recommendations**
+## 🕵️ **额外建议**
 
-For the proper maintenance of the CHANGELOG.md, we recommend this [VSCode extension](https://github.com/Josee9988/Changelog-and-Markdown-snippets)
-and the read and understanding of the [keep a changelog guide](https://keepachangelog.com/en/1.0.0/).
-Please read and comment about it in this [dev.to post](https://dev.to/josee9988/the-ultimate-github-project-template-1264).
-We also recommend installing all the [used bots](https://github.com/Josee9988/project-template#-used-github-bots).
+为了正确维护 CHANGELOG.md，我们建议采用以下方法 [VSCode 插件](https://github.com/Josee9988/Changelog-and-Markdown-snippets)
+和阅读理解 [保存更新日志指南](https://keepachangelog.com/en/1.0.0/).
+我们还建议安装所有 [使用的机器人](https://github.com/SirYuxuan/project-template#-used-github-bots).
 
-## 💉 **Project tests**
+## 💉 **项目测试**
 
-If you want to improve the development of this project, you must, after changing or improving whatever, run the project's tests to prove that they are working.
+如果你想改进这个项目的开发，就必须在更改或改进任何东西之后，运行项目的测试，以证明它们是有效的。
 
-To do so:
+执行:
 
 ```bash
 bash tests/TESTS_RUNNER.sh
@@ -227,33 +205,31 @@ bash tests/TESTS_RUNNER.sh
 
 ---
 
-## 🍰 **Supporters and donators**
+## 🍰 **支持者和捐赠者**
 
-<a href="https://github.com/Josee9988/project-template/generate">
-  <img alt="@Josee9988/project-template's brand logo without text" align="right" src="https://i.imgur.com/3qK1sie.png" width="18%" />
-</a>
 
-We are currently looking for new donators to help and maintain this project! ❤️
 
-By donating, you will help the development of this project, and *you will be featured in this project's README.md*, so everyone can see your kindness and visit your content ⭐.
+我们目前正在寻找新的捐赠者来帮助和维护这个项目！ ❤️
 
-<a href="https://github.com/sponsors/Josee9988">
-  <img alt="project logo" src="https://img.shields.io/badge/Sponsor-Josee9988/project template-blue?logo=github-sponsors&style=for-the-badge&color=red">
+通过捐赠，您将帮助本项目的发展，而且*您将在本项目的 README.md* 中出现，让每个人都能看到您的善意并访问您的内容⭐。
+
+<a href="https://afdian.net/a/siryuxuan/plan">
+  <img alt="project logo" src="https://img.shields.io/badge/Sponsor-SirYuxuan/projecttemplate-blue?logo=github-sponsors&style=for-the-badge&color=red">
 </a>
 
 ---
 
-## 🎉 Was the template helpful? Please help us raise these numbers up
+## 🎉 该模板是否有用？请帮助我们提高这些数字
 
-[![GitHub's followers](https://img.shields.io/github/followers/Josee9988.svg?style=social)](https://github.com/Josee9988)
-[![GitHub stars](https://img.shields.io/github/stars/Josee9988/project-template.svg?style=social)](https://github.com/Josee9988/project-template/stargazers)
-[![GitHub watchers](https://img.shields.io/github/watchers/Josee9988/project-template.svg?style=social)](https://github.com/Josee9988/project-template/watchers)
-[![GitHub forks](https://img.shields.io/github/forks/Josee9988/project-template.svg?style=social)](https://github.com/Josee9988/project-template/network/members)
+[![GitHub's followers](https://img.shields.io/github/followers/SirYuxuan.svg?style=social)](https://github.com/SirYuxuan)
+[![GitHub stars](https://img.shields.io/github/stars/SirYuxuan/project-template.svg?style=social)](https://github.com/SirYuxuan/project-template/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/SirYuxuan/project-template.svg?style=social)](https://github.com/SirYuxuan/project-template/watchers)
+[![GitHub forks](https://img.shields.io/github/forks/SirYuxuan/project-template.svg?style=social)](https://github.com/SirYuxuan/project-template/network/members)
 
-Enjoy! 😃
+尽情享用! 😃
 
-> ⚠️ Remember that this template should be reviewed and modified to fit your requirements.
-> The script **SETUP_TEMPLATE.sh** should be executed right when you clone your new repository generated from [here](https://github.com/Josee9988/project-template/generate).
-> There will be files that will need *manual revision* ⚠️
+> ⚠️ 请记住，本模板应根据您的要求进行审核和修改。
+> 这个脚本 **SETUP_TEMPLATE.sh** 应在从 [这里](https://github.com/SirYuxuan/project-template/generate) 克隆.
+> 这里的文件需要*手动修改* ⚠️
 
-_Made with a lot of ❤️❤️ by **[@Josee9988](https://github.com/Josee9988)**_
+_使用大量 ❤️❤️ by **[@SirYuxuan](https://github.com/SirYuxuan)**_

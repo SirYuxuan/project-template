@@ -1,67 +1,58 @@
 ---
-name: "⚠️ Security Report"
-about: "Report an issue to help the project improve."
+name: "⚠️ 安全报告"
+about: "报告一个问题来帮助项目改进。"
 title: ""
-labels: "Type: Security"
-assignees: Josee9988
+labels: "类型: 安全"
+assignees: SirYuxuan
 
 ---
 
 <!--📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛
 
-Oh, hi there! 😄
+嗨！ 😄
 
-To expedite issue processing, please search open and closed issues before submitting a new one.
-Please read our Rules of Conduct at this repository's `.github/CODE_OF_CONDUCT.md`
+为了加快问题处理速度，请在提交新问题之前搜索已解决和已关闭的问题。
+请阅读我们在此存储库的 `.github/CODE_OF_CONDUCT.md` 下的行为规范。
 
-FIRST OF ALL, read this project's SECURITY.md file. Located in `.github/SECURITY.md`.
+首先，阅读本项目的 SECURITY.md 文件。位于 `.github/SECURITY.md` 中。
 
-READ CAREFULLY IF YOUR ISSUE REPORT CONTAINS SENSIBLE OR PRIVATE DATA:
-(data that might be leaked or subtracted from our servers due to this
-security issue).
+仔细阅读您的问题报告是否包含敏感或私人数据：
+（可能由于此安全问题泄露或从我们的服务器中减少的数据）。
 
-If this security report (or the guide on how to "identify the security bug") includes
-certain personal information or involves personal identifiable data, or you believe
-that the data that you might leak by exposing the way on how to attack the project
-could be considered as a data leak or could violate the privacy of any kind of
-data or sensible data, please do not post it here and directly email the developer:
-(jgracia9988@gmail.com). You should post the issue with the least amount of
-sensible or private data as possible to help us manage the security issue, and
-with the extra data sent from your email to the developer (if any), we will deeply
-analyze and try to fix it as fast as possible.
+如果此安全报告（或“识别安全错误的指南”）包含某些个人信息或涉及个人可识别数据，或者您认为您可能通过公开攻击项目的方式泄露的数据可能被视为数据泄露或可能违反任何类型的数据或敏感数据的隐私，请不要在此处发布它，并直接通过电子邮件向开发人员发送：
+（1718018032@qq.com）。您应该尽可能少地发布包含敏感或私人数据的问题，以帮助我们处理安全问题，并且通过电子邮件向开发人员发送的额外数据（如果有的话），我们将深入分析并尽快修复。
 
-If you are in doubt about the data that you might post here (screenshots or media
-also, count as data), please directly email us.
+如果您对可能在此处发布的数据有疑问（屏幕截图或媒体也算作数据），请直接发送电子邮件给我们。
 
-The data that must NOT be posted here:
+不得在此处发布的数据：
 
-* Legal and/or full names
-* Names or usernames combined with other identifiers like phone numbers or email addresses
-* Health or financial information (including insurance information, social security numbers, etc.)
-* Information about political or religious affiliations
-* Information about race, ethnicity, sexual orientation, gender, or other identifying information that could be used for discriminatory purposes
+* 法律和/或全名
+* 与电话号码或电子邮件地址等其他标识符组合的名称或用户名
+* 健康或财务信息（包括保险信息、社会保障号码等）
+* 有关政治或宗教从属关系的信息
+* 有关种族、种族、性取向、性别或其他可用于歧视目的的身份信息
 
-📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛-->
+📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛-->
 
-# **⚠️ Security Report**
+# **⚠️ 安全报告**
 
-## **Describe the security issue**
-<!-- A clear and concise description of what the bug is. -->
+## **描述安全问题**
+<!-- 对问题是什么的清晰而简明的描述。 -->
 
 *
 
 ---
 
-### **To Reproduce**
+### **重现步骤**
 
-<!-- Steps to reproduce the error:
-(e.g.:)
-1. Use x argument / navigate to
-2. Fill this information
-3. Go to...
-4. See error -->
+<!-- 重现错误的步骤：
+（例如：）
+1. 使用 x 参数 / 导航到
+2. 填写此信息
+3. 前往...
+4. 查看错误 -->
 
-<!-- Write the steps here (add or remove as many steps as needed)-->
+<!-- 在此处编写步骤（根据需要添加或删除步骤）-->
 
 1.
 2.
@@ -70,31 +61,30 @@ The data that must NOT be posted here:
 
 ---
 
-### **Expected behaviour**
-<!-- A clear and concise description of what you expected to happen. -->
+### **预期行为**
+<!-- 对您期望发生的事情的清晰而简明的描述。 -->
 
 *
 
 ---
 
-### **Media prove**
-<!-- If applicable, add screenshots or videos to help explain your problem. -->
+### **媒体证据**
+<!-- 如适用，添加屏幕截图或视频以帮助解释您的问题。 -->
 
 ---
 
-### **Your environment**
+### **您的环境**
 
-<!-- use all the applicable bulleted list elements for this specific issue,
-and remove all the bulleted list elements that are not relevant for this issue. -->
+<!-- 对于此特定问题，请使用所有适用的项目符号列表元素，并删除所有与此问题不相关的项目符号列表元素。 -->
 
-* OS: <!--[e.g. Ubuntu 5.4.0-26-generic x86_64 / Windows 1904 ...]-->
-* Node version:
-* Npm version:
-* Browser name and version:
+* 操作系统：<!--[例如 Ubuntu 5.4.0-26-generic x86_64 / Windows 1904 ...]-->
+* Node 版本：
+* Npm 版本：
+* 浏览器名称和版本：
 
 ---
 
-### **Additional context**
-<!-- Add any other context or additional information about the problem here.-->
+### **其他上下文**
+<!-- 在此处添加有关问题的任何其他上下文或附加信息。-->
 
 *

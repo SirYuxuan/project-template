@@ -1,11 +1,11 @@
-# **Reporting Security Issues**
+# **报告安全问题**
 
-The project's team and community take security issues.
+项目团队和社区重视安全问题。
 
-We appreciate your efforts to disclose your findings responsibly and will make every effort to acknowledge your contributions.
+我们感谢您以负责任的态度披露您的发现，并将尽一切努力承认您的贡献。
 
-To report a security issue, go to the project's issues and create a new issue using the ⚠️ Security Report 'issue template'.
+要报告安全问题，请访问项目的问题，并使用 ⚠️ 安全报告 "问题模板 "创建一个新问题。
 
-Read the instructions of this issue template carefully, and if your report could leak data or might expose how to gain access to a restricted area or break the system, please email [jgracia9988@gmail.com](mailto:jgracia9988@gmail.com) and include the word "SECURITY" in the subject line.
+请仔细阅读该问题模板的说明，如果您的报告可能会泄露数据，或可能会暴露如何访问受限区域或破解系统，请发送电子邮件至 [1718018032@qq.com](mailto:1718018032@qq.com)，并在主题行注明 "安全 "字样。
 
-We'll endeavour to respond quickly and keep you updated throughout the process.
+我们将尽快回复，并在整个过程中随时向您通报最新情况。

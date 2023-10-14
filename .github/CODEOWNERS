@@ -1,6 +1,5 @@
-# These owners will be the default owners for everything in
-# the repo. Unless a later match takes precedence,
-# @Josee9988 will be requested for
-# review when someone opens a pull request.
-# if you want to add more owners, just write it after @Josee9988
-*       @Josee9988
+# 这些所有者将成为
+# 所有者。除非后来者优先、
+# @SirYuxuan 将被请求审核。
+# 如果你想添加更多所有者，只需在 @SirYuxuan 之后写入即可
+* @SirYuxuan

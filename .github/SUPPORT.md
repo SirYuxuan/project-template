@@ -1,11 +1,10 @@
-# **Support**
+# 支持**
 
-## Obtain direct support from the project's owners
+## 获得项目所有者的直接支持
 
-1. Open a new issue and select the issue with the template called "❓ Question or Support Request".
-2. Read the instructions carefully in that template and submit the issue asking for support
-or any question.
+1. 打开一个新问题，选择使用"❓ 问题或支持请求 "模板的问题。
+2. 仔细阅读模板中的说明并提交问题，请求支持或任何问题。
 
-## Bug reports
+## 错误报告
 
-See the [contributing guidelines](CONTRIBUTING.md) for sharing bug reports and read our [code of conduct](CODE_OF_CONDUCT.md).
+请参阅[贡献指南](CONTRIBUTING.md) 共享错误报告，并阅读我们的[行为准则](CODE_OF_CONDUCT.md)。

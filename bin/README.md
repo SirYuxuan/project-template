@@ -1,9 +1,9 @@
-# Folder **bin/**
+# 文件夹 **bin/**
 
-* Folder with additional scripts or executables to help with the development of the project.
+* 包含用于帮助项目开发的其他脚本或可执行文件的文件夹。
 
-## Files
+## 文件
 
-### The *bin/FUNCTION_HELPERS.sh*
+### *bin/FUNCTION_HELPERS.sh*
 
-* Secondary (helper) script that is called by the main "../SETUP_TEMPLATE.sh" file to call some functions and obtain some exported variables to better modularize the code.
+* 辅助（助手）脚本，由主要的"../SETUP_TEMPLATE.sh"文件调用，以调用一些函数并获取一些导出的变量，以更好地模块化代码。

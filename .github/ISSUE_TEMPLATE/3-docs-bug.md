@@ -1,30 +1,30 @@
 ---
-name: "📚 Documentation or README.md issue report"
-about: "Report an issue in the project's documentation or README.md file."
+name: "📚 文档或 README.md 问题报告"
+about: "报告项目文档或 README.md 文件中的问题。"
 title: ""
-labels: "Documentation"
-assignees: Josee9988
+labels: "类型: 文档"
+assignees: SirYuxuan
 
 ---
-# **📚 Documentation Issue Report**
+# **📚 文档问题报告**
 
-## **Describe the bug**
-<!-- A clear and concise description of what the bug is. -->
+## **描述问题**
+<!-- 对问题的清晰而简明的描述。 -->
 
 *
 
 ---
 
-### **To Reproduce**
+### **重现步骤**
 
-<!-- Steps to reproduce the error:
-(e.g.:)
-1. Use x argument / navigate to
-2. Fill this information
-3. Go to...
-4. See error -->
+<!-- 重现错误的步骤：
+（例如：）
+1. 使用 x 参数 / 导航到
+2. 填写此信息
+3. 前往...
+4. 查看错误 -->
 
-<!-- Write the steps here (add or remove as many steps as needed)-->
+<!-- 在此处写下步骤（根据需要添加或删除多个步骤）-->
 
 1.
 2.
@@ -33,28 +33,28 @@ assignees: Josee9988
 
 ---
 
-### **Media prove**
-<!-- If applicable, add screenshots or videos to help explain your problem. -->
+### **媒体证明**
+<!-- 如适用，添加截图或视频以帮助解释您的问题。 -->
 
 ---
 
-## **Describe the solution you'd like**
-<!-- A clear and concise description of what you want to happen. -->
+## **描述您想要的解决方案**
+<!-- 对您希望发生的事情的清晰而简明的描述。 -->
 
 *
 
 ---
 
-### **Additional context**
-<!-- Add any other context or additional information about the problem here.-->
+### **其他上下文**
+<!-- 在此处添加有关问题的任何其他上下文或附加信息。-->
 
 *
 
-<!--📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛
+<!--📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛
 
-Oh, hi there! 😄
+嗨，你好！ 😄
 
-To expedite issue processing, please search open and closed issues before submitting a new one.
-Please read our Rules of Conduct at this repository's `.github/CODE_OF_CONDUCT.md`
+为了加快问题处理速度，请在提交新问题之前搜索已解决和已关闭的问题。
+请阅读我们在此存储库的 `.github/CODE_OF_CONDUCT.md` 下的行为规范。
 
 📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛-->

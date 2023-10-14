@@ -1,23 +1,23 @@
-# **Contributing**
+# **贡献**
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change.
+向本版本库贡献时，请首先通过 issue、
+电子邮件或任何其他方式与本版本库的所有者讨论，然后再进行修改。
 
-Please note we have a [code of conduct](CODE_OF_CONDUCT.md); please follow it in all your interactions with the project.
+请注意，我们有[行为准则](CODE_OF_CONDUCT.md)；请在与项目的所有互动中遵守该准则。
 
-## Pull Request Process
+## 拉取请求流程
 
-1. Ensure any install or build dependencies are removed before the end of the layer when doing a
-   build.
-2. Update the README.md with details of changes to the interface; this includes new environment variables, exposed ports, valid file locations and container parameters.
-3. Increase the version numbers in any examples files and the README.md to the new version that this
-   Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
-4. You may merge the Pull Request once you have the sign-off of two other developers, or if you
-   do not have permission to do that, you may request the second reviewer to merge it for you.
+1. 进行构建时，确保在层结束前移除任何安装或构建依赖项。
+   构建。
+2. 2. 更新 README.md，详细说明对界面的修改；其中包括新的环境变量、暴露的端口、有效的文件位置和容器参数。
+3. 3. 将所有示例文件和 README.md 中的版本号增加到此 Pull Request 所代表的新版本。
+      版本号。我们使用的版本方案是 [SemVer](http://semver.org/)。
+4. 4. 一旦您获得另外两名开发人员的签名同意，您就可以合并拉取请求。
+      如果您没有权限这样做，您可以请求第二位审核员为您合并。
 
-## Issue Report Process
+##问题报告流程
 
-1. Go to the project's issues.
-2. Select the template that better fits your issue.
-3. Read the instructions carefully and write within the template guidelines.
-4. Submit it and wait for support.
+1. 转到项目的问题。
+2. 选择更适合您的问题的模板。
+3. 仔细阅读说明，并按照模板指南撰写。
+4. 提交并等待支持。

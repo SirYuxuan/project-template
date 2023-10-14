@@ -1,29 +1,29 @@
-# **Name of PR**
+# **PR名称**
 
-<!-- This PR fixes #NUMBER_OF_THE_ISSUE, and fixes #NUMBER_OF_THE_ISSUE -->
+<！--此 PR 修复了 #NUMBER_OF_THE_ISSUE，并修复了 #NUMBER_OF_THE_ISSUE -->
 
-## **Description**
+## **描述**
 
-<!--  📛📛
-Please include a summary of the change and/or which issue is fixed.
-List any dependencies required for this change, if there are any.
+<!-- 📛📛
+请包含变更摘要和/或修复的问题。
+列出此更改所需的任何依赖项（如果有）。
 📛📛 -->
 
 *
 
 ---
 
-### **Additional context**
+### **附加上下文**
 
-<!-- Add any other context or additional information about the pull request.-->
+<！--添加有关拉取请求的任何其他上下文或附加信息。
 
 *
 
 <!-- 📛📛📛📛
-If it fixes any current issue please let us know this way:
-Uncomment the comment above "description", then add your number of issues after the "#".
-Example: # **This pull request fixes #NUMBER_OF_THE_ISSUE issue**
-If there are multiple issues to be closed with the merge of this pull request
-please do it like so: **This pull request fixes #NUMBER_OF_THE_ISSUE, fixes #NUMBER_OF_THE_ISSUE and fixes #NUMBER_OF_THE_ISSUE issue**.
-For more information on closing issues using keywords, please check https://docs.github.com/en/enterprise/2.16/user/github/managing-your-work-on-github/closing-issues-using-keywords#closing-multiple-issues
+如果它修复了任何当前问题，请通过这种方式告诉我们：
+取消 "description "上面的注释，然后在 "#"后面添加您的问题数量。
+例如 # **此拉取请求修复了 #NUMBER_OF_THE_ISSUE 问题**
+如果有多个问题需要在合并此请求时关闭
+请这样做： ** 此请求修复 #NUMBER_OF_THE_ISSUE、修复 #NUMBER_OF_THE_ISSUE 和修复 #NUMBER_OF_THE_ISSUE 问题**。
+有关使用关键字关闭问题的更多信息，请查看 https://docs.github.com/en/enterprise/2.16/user/github/managing-your-work-on-github/closing-issues-using-keywords#closing-multiple-issues
 📛📛📛📛 -->

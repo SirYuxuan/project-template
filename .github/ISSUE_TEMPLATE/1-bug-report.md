@@ -1,37 +1,37 @@
 ---
-name: "🐞 Bug Report"
-about: "Report an issue to help the project improve."
-title: "[Bug] "
-labels: "Type: Bug"
-assignees: Josee9988
+name: "🐞 报告错误"
+about: "报告问题以帮助项目改进。"
+title: "[错误] "
+labels: "类型: 错误"
+assignees: SirYuxuan
 
 ---
 
-# **🐞 Bug Report**
+# **🐞 报告错误**
 
-## **Describe the bug**
-<!-- A clear and concise description of what the bug is. -->
+## **描述错误**
+<!-- 对错误的清晰而简明描述。 -->
 
 *
 
 ---
 
-### **Is this a regression?**
-<!-- Did this behaviour used to work in the previous version? -->
-<!-- Yes, the last version in which this bug was not present was: ... -->
+### **这是否是退化？**
+<!-- 这种行为在之前的版本中是否正常工作？ -->
+<!-- 是的，此错误不存在的最后一个版本是：... -->
 
 ---
 
-### **To Reproduce**
+### **复现方法**
 
-<!-- Steps to reproduce the error:
-(e.g.:)
-1. Use x argument / navigate to
-2. Fill this information
-3. Go to...
-4. See error -->
+<!-- 复制错误的步骤：
+（例如：）
+1. 使用 x 参数 / 导航到
+2. 填写此信息
+3. 转到...
+4. 查看错误 -->
 
-<!-- Write the steps here (add or remove as many steps as needed)-->
+<!-- 在这里写出步骤（根据需要添加或删除步骤）-->
 
 1.
 2.
@@ -40,40 +40,40 @@ assignees: Josee9988
 
 ---
 
-### **Expected behaviour**
-<!-- A clear and concise description of what you expected to happen. -->
+### **期望的行为**
+<!-- 对您期望发生的事情进行清晰而简明的描述。 -->
 
 *
 
 ---
 
-### **Media prove**
-<!-- If applicable, add screenshots or videos to help explain your problem. -->
+### **图片证明**
+<!-- 如适用，添加截图或视频以帮助解释您的问题。 -->
 
 ---
 
-### **Your environment**
+### **您的环境**
 
-<!-- use all the applicable bulleted list elements for this specific issue,
-and remove all the bulleted list elements that are not relevant for this issue. -->
+<!-- 对于此特定问题，请使用所有适用的项目符号列表元素，
+并删除此问题与之相关的所有项目符号列表元素。 -->
 
-* OS: <!--[e.g. Ubuntu 5.4.0-26-generic x86_64 / Windows 1904 ...]-->
-* Node version:
-* Npm version:
-* Browser name and version:
+* 操作系统: <!--[例如 Ubuntu 5.4.0-26-generic x86_64 / Windows 1904 ...]-->
+* Node 版本:
+* Npm 版本:
+* 浏览器名称和版本:
 
 ---
 
-### **Additional context**
-<!-- Add any other context or additional information about the problem here.-->
+### **其他上下文**
+<!-- 添加有关问题的任何其他上下文或附加信息。-->
 
 *
 
 <!--📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛
 
-Oh, hi there! 😄
+嗨，你好！ 😄
 
-To expedite issue processing, please search open and closed issues before submitting a new one.
-Please read our Rules of Conduct at this repository's `.github/CODE_OF_CONDUCT.md`
+为了加速处理问题，请在提交新问题之前搜索已解决和已关闭的问题。
+请阅读我们在此存储库的 `.github/CODE_OF_CONDUCT.md` 下的行为规则。
 
 📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛-->

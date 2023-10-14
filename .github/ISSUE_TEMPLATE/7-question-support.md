@@ -1,28 +1,27 @@
 ---
-name: "❓ Question or Support Request"
-about: "Questions and requests for support."
+name: "❓ 问题或支持请求"
+about: "问题和支持请求。"
 title: ""
-labels: "Type: Question"
-assignees: Josee9988
+labels: "类型: 问题"
+assignees: SirYuxuan
 
 ---
 
-# **❓ Question or Support Request**
+# **❓ 问题或支持请求**
 
-## **Describe your question or ask for support.**
-<!-- A clear and concise description of what your doubt is. -->
+## **描述您的问题或请求支持。**
+<!-- 对您的疑问进行清晰而简明的描述。 -->
 
 *
 
-<!--📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛
+<!--📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛
 
-Oh, hi there! 😄
+嗨！ 😄
 
-Before posting any questions or asking for support, first read the project's README.md file and
-(if there is any) the WIKI pages or any other additional documentation that might be listed
-in the project's README.md file.
+在发布任何问题或寻求支持之前，首先阅读项目的 README.md 文件和
+（如果有）WIKI 页面或任何其他可能列在项目的 README.md 文件中的附加文档。
 
-To expedite issue processing, please search open and closed issues before submitting a new one.
-Please read our Rules of Conduct at this repository's `.github/CODE_OF_CONDUCT.md`
+为了加快问题处理速度，请在提交新问题之前搜索已解决和已关闭的问题。
+请阅读我们在此存储库的 `.github/CODE_OF_CONDUCT.md` 下的行为规范。
 
 📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛-->

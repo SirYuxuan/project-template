@@ -1,45 +1,45 @@
 ---
-name: "🚀➕ Enhancement Request"
-about: "Suggest an enhancement for this project. Improve an existing feature"
+name: "🚀➕ 增强请求"
+about: "为该项目提出一个增强建议。改进现有功能"
 title: ""
-labels: "Type: Enhancement"
-assignees: Josee9988
+labels: "类型: 增强"
+assignees: SirYuxuan
 
 ---
 
-# **🚀 Enhancement Request**
+# **🚀 增强请求**
 
-## **Is your enhancement request related to a problem? Please describe.**
-<!-- A clear and concise description of what the problem is. Ex. I'm always frustrated when [...] -->
+## **您的增强请求是否与问题有关？请描述。**
+<!-- 对问题是什么的清晰而简明的描述。例如，我总是感到沮丧，因为 [...] -->
 
 *
 
 ---
 
-## **Describe the solution you'd like**
-<!-- A clear and concise description of what you want to happen. -->
+## **描述您希望的解决方案**
+<!-- 对您希望发生的事情的清晰而简明的描述。 -->
 
 *
 
 ---
 
-## **Describe alternatives you've considered**
-<!-- A clear and concise description of any alternative solutions or features you've considered. -->
+## **描述您考虑过的替代方案**
+<!-- 对您考虑过的任何替代解决方案或功能的清晰而简明的描述。 -->
 
 *
 
 ---
 
-### **Additional context**
-<!-- Add any other context or additional information about the problem here.-->
+### **其他上下文**
+<!-- 在此处添加有关问题的任何其他上下文或附加信息。-->
 
 *
 
-<!--📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛
+<!--📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛
 
-Oh, hi there! 😄
+嗨，你好！ 😄
 
-To expedite issue processing, please search open and closed issues before submitting a new one.
-Please read our Rules of Conduct at this repository's `.github/CODE_OF_CONDUCT.md`
+为了加快问题处理速度，请在提交新问题之前搜索已解决和已关闭的问题。
+请阅读我们在此存储库的 `.github/CODE_OF_CONDUCT.md` 下的行为规范。
 
-📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛-->
+📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛-->

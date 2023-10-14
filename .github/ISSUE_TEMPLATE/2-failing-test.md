@@ -1,41 +1,41 @@
 ---
-name: "💉 Failing Test"
-about: "Report failing tests or CI jobs."
-title: "[Test] "
-labels: "Type: Test"
-assignees: Josee9988
+name: "💉 测试失败"
+about: "报告失败的测试或 CI 作业。"
+title: "[测试] "
+labels: "类型: 测试"
+assignees: SirYuxuan
 
 ---
 
-# **💉 Failing Test**
+# **💉 测试失败**
 
-## **Which jobs/test(s) are failing**
-<!-- The CI jobs or tests that are failing -->
+## **哪些作业/测试失败了**
+<!-- 失败的 CI 作业或测试 -->
 
 *
 
 ---
 
-## **Reason for failure/description**
-<!-- Try to describe why the test is failing or what we are missing to make it pass. -->
+## **失败原因/描述**
+<!-- 尝试描述测试失败的原因或我们缺少什么来使其通过。 -->
 
 ---
 
-### **Media prove**
-<!-- If applicable, add screenshots or videos to help explain your problem. -->
+### **媒体证明**
+<!-- 如适用，添加截图或视频以帮助解释您的问题。 -->
 
 ---
 
-### **Additional context**
-<!-- Add any other context or additional information about the problem here. -->
+### **其他上下文**
+<!-- 添加有关问题的任何其他上下文或附加信息。 -->
 
 *
 
-<!--📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛
+<!--📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛
 
-Oh, hi there! 😄
+嗨，你好！ 😄
 
-To expedite issue processing, please search open and closed issues before submitting a new one.
-Please read our Rules of Conduct at this repository's `.github/CODE_OF_CONDUCT.md`
+为了加速处理问题，请在提交新问题之前搜索已解决和已关闭的问题。
+请阅读我们在此存储库的 `.github/CODE_OF_CONDUCT.md` 下的行为规则。
 
 📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛-->
