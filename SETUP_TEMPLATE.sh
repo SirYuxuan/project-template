@@ -5,8 +5,18 @@
 RED='\033[1;31m'
 # 读取 GitHub 用户名和项目名称
 NAME_AND_PROJECT_UNPARSED=$(git ls-remote --get-url)
-NEW_USERNAME=$(echo "$NAME_AND_PROJECT_UNPARSED" | cut -d':' -f 2 | cut -d'/' -f 1)
-PROJECT_NAME=$(echo "$NAME_AND_PROJECT_UNPARSED" | cut -d'/' -f 2 | cut -d'.' -f 1)
+
+if [[ $NAME_AND_PROJECT_UNPARSED =~ ^git@ ]]; then
+    NEW_USERNAME=$(echo "$NAME_AND_PROJECT_UNPARSED" | cut -d'/' -f 2 | cut -d':' -f 1)
+    PROJECT_NAME=$(echo "$NAME_AND_PROJECT_UNPARSED" | cut -d'/' -f 2 | cut -d'.' -f 1)
+elif [[ $NAME_AND_PROJECT_UNPARSED =~ ^https:// ]]; then
+    NEW_USERNAME=$(echo "$NAME_AND_PROJECT_UNPARSED" | awk -F/ '{print $4}')
+    PROJECT_NAME=$(echo "$NAME_AND_PROJECT_UNPARSED" | awk -F/ '{print $5}' | cut -d'.' -f1)
+else
+    echo "Invalid Git URL format"
+    exit 1
+fi
+
 NEW_EMAIL=$(git config user.email)
 TEMP_TEST_OUTPUT=".ignore.test_output.txt"
 PROJECT_TYPE="repository" # 如果未指定则默认值
